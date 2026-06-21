@@ -1,0 +1,31 @@
+# Low-Power-ALU-Verilog/.gitignore
+# ----------------------------------------------------
+# Filter patterns for HDL simulation & Vivado toolchain
+# ----------------------------------------------------
+
+# Temporary/Compile execution outputs
+*.log
+*.jou
+*.pb
+*.vcd
+*.vvp
+*.str
+*.lxt
+*.lxt2
+
+# Synthesis and STA reports
+reports/*.txt
+reports/*.rpt
+reports/*.xml
+
+# Vivado Projects Workspace directories
+.Xil/
+xsim.dir/
+xsim/
+synth_1/
+impl_1/
+.ip_user_files/
+
+# macOS / Windows OS artifacts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+{
+  "name": "Low-Power Verilog ALU Studio",
+  "description": "An interactive digital design playground and comprehensive companion guide for verifying and simulating custom Parameterizable Low-Power Arithmetic Logic Units (ALU) in Verilog.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
