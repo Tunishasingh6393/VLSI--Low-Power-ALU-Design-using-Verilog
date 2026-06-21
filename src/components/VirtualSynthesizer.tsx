@@ -314,7 +314,7 @@ export default function VirtualSynthesizer() {
 
           <div className="font-mono text-[10px] text-emerald-400 space-y-1.5 flex-1 select-all h-[110px] overflow-y-auto">
             {terminalLogs.map((log, idx) => (
-              <div key={idx} className={log.includes("[WARNING]") || log.includes("[DESIGN WRN]") ? "text-yellow-400" : log.includes("[CLOCK GATE]") || log.includes("[OPTIMIZATION]") ? "text-cyan-400" : "text-emerald-400"}>
+              <div key={idx} className={log?.includes("[WARNING]") || log?.includes("[DESIGN WRN]") ? "text-yellow-400" : log?.includes("[CLOCK GATE]") || log?.includes("[OPTIMIZATION]") ? "text-cyan-400" : "text-emerald-400"}>
                 {log}
               </div>
             ))}

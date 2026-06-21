@@ -205,7 +205,7 @@ export default function App() {
       setV(nextV);
     }
 
-    const opName = ALU_OPERATIONS.find(op => op.opcode.includes(`b${OPC.toString(2).padStart(4,"0")}`))?.name || "IDLE";
+    const opName = ALU_OPERATIONS.find(op => op?.opcode?.includes(`b${OPC.toString(2).padStart(4,"0")}`))?.name || "IDLE";
 
     // Trace Signal Event Logging
     const newEvent: SimSignalEvent = {
